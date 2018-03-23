@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package bin;
+
+/**
+ * @author ab.srivastava
+ *
+ */
+public class Wrapper {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ExcelEngine.readExcel("/home/ab.srivastava/Desktop/abc.xls","Sheet1");
+		
+	
+	}
+
+}

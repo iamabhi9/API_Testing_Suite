@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package bin;
+
+/**
+ * @author ab.srivastava
+ *
+ */
+public class wrapper {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

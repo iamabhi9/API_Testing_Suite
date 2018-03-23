@@ -1,0 +1,55 @@
+package bin;
+
+public class Request {
+	
+	public Request(String url, String apiName, String method, String payload) {
+		super();
+		this.url = url;
+		this.apiName = apiName;
+		this.method = method;
+		this.payload = payload;
+	}
+
+	String url;
+	String apiName;
+	String method;
+	String payload;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public String getApiName() {
+		return apiName;
+	}
+
+	public void setApiName(String apiName) {
+		this.apiName = apiName;
+	}
+
+	public String getMethod() {
+		return method;
+	}
+
+	public void setMethod(String method) {
+		this.method = method;
+	}
+
+	public String getPayload() {
+		return payload;
+	}
+
+	public void setPayload(String payload) {
+		this.payload = payload;
+	}
+
+}
